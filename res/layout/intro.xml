@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/icon"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> 
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	<TableRow>
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrient Calculator"/>
+		</TableRow>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Choose your Weapon"/>
+	</TableLayout>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Fox Farms"
+		android:id="@+id/nutecalc"/>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Weight Calculator"
+		android:id="@+id/weight"/>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Timer"
+		android:id="@+id/timer"/>
+</LinearLayout>

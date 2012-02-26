@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget45" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical">
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:id="@+id/linearLayout1" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content">
+        <LinearLayout 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout3" 
+        android:layout_height="wrap_content">
+            <Button 
+                android:id="@+id/week1" 
+				android:textColor="#0000FF"
+				android:layout_width="wrap_content" 
+                android:text="Week 1" 
+                android:layout_height="wrap_content">
+			</Button>
+
+            <LinearLayout
+                android:id="@+id/linearLayout25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/week2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+						android:textColor="#0000FF"
+						android:text="Week 2" />	
+                    <Button
+                        android:id="@+id/week3"
+                        android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+                        android:text="Week 3" 
+						android:textColor="#0000FF"/>
+
+                    <Button
+                        android:id="@+id/week4"
+                        android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+                        android:text="Week 4" 			
+						android:textColor="#0000FF"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent" 
+            android:id="@+id/linearLayout4" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical">
+            <LinearLayout 
+                android:layout_width="match_parent" 
+                android:id="@+id/linearLayout9" 
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/week5"
+    				android:textColor="#008000"
+	                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 5" />
+
+                <Button
+                    android:id="@+id/week6"
+                    android:layout_width="wrap_content"
+     				android:textColor="#008000"
+	                android:layout_height="wrap_content"
+                    android:text="Week 6" />
+
+                <Button
+                    android:id="@+id/week7"
+                    android:layout_width="wrap_content"
+     				android:textColor="#008000"
+	                android:layout_height="wrap_content"
+                    android:text="Week 7" />
+
+                <Button
+                    android:id="@+id/week8"
+      				android:textColor="#008000"
+	                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 8" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout10" android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout6" android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout11" android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/week9"
+       				android:textColor="#008000"
+	                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 9" />
+
+                <Button
+                    android:id="@+id/week10"
+        			android:textColor="#008000"
+	                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 10" />
+
+                <Button
+                    android:id="@+id/week11"
+         			android:textColor="#008000"
+					android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 11" />
+
+                <Button
+                    android:id="@+id/week12"
+	   				android:textColor="#008000"
+					android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 12" />
+            </LinearLayout>
+        </LinearLayout> 
+ 	<EditText 
+		android:textSize="18sp" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/input" 
+		android:numeric="decimal|signed" 
+		android:layout_width="match_parent">
+	</EditText>
+ 	<LinearLayout 
+		android:layout_width="match_parent" 
+		android:id="@+id/linearLayout24" 
+		android:layout_height="wrap_content" 
+		android:weightSum="1">
+ 	<Button 
+		android:id="@+id/clear" 
+		android:text="Clear" 
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+ 			</LinearLayout>
+ 			<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout12" android:layout_height="wrap_content" android:weightSum="1">
+ 				<TextView android:text="Nutrient" android:textSize="18sp" android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_width="wrap_content"></TextView>
+  				<TextView android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_weight="0.33"></TextView>
+  				<TextView android:text="Teaspoon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_weight="0.12"></TextView>
+  				<TextView android:text="Ounce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="0.17"></TextView>
+ 			</LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearLayout7" android:weightSum="1" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView android:text="Big Bloom" android:layout_height="wrap_content" android:id="@+id/LabelLine1" android:layout_width="wrap_content" android:layout_weight="0.51"></TextView>
+            <TextView android:text="" android:layout_height="wrap_content" android:id="@+id/bigBTeaspoonlb" android:layout_width="70dp" android:layout_weight="0.11"></TextView>
+            <TextView android:text="" android:layout_height="wrap_content" android:id="@+id/bigBOuncelb" android:layout_width="73dp"></TextView>
+        </LinearLayout>
+    
+</LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout8" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout13" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:text="Grow Big" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_weight="0.43"></TextView>
+            <TextView android:text="" android:layout_weight="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/growBTeaspoonlb"></TextView>
+            <TextView android:text="" android:id="@+id/growBOuncelb" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout14" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout15" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:text="Tiger Bloom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="0.36"></TextView>
+            <TextView android:text="" android:layout_weight="0.17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tigerBTeaspoonlb"></TextView>
+            <TextView android:text="" android:id="@+id/tigerBOuncelb" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout16" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout17" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:text="Solubles" android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_weight="0.16"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout18" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout19" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:text="Open Seasame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="0.27"></TextView>
+            <TextView android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/openSTeaspoonlb" android:layout_weight="0.18"></TextView>
+            <TextView android:text="" android:layout_weight="0.25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/openSTablespoonlb"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout20" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout21" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:text="Beastie Bloom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textview88" android:layout_weight="0.31"></TextView>
+            <TextView android:text="" android:layout_weight="0.19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/beastieBTeaspoonlb"></TextView>
+            <TextView android:text="" android:id="@+id/beastieBTablespoonlb " android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout22" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="match_parent" 
+            android:id="@+id/linearLayout23" 
+            android:layout_height="wrap_content" 
+            android:weightSum="1">
+            <TextView 
+                android:text="ChaChing" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/textView18" 
+                android:layout_weight="0.45">
+                
+            </TextView>
+            <TextView 
+                android:text="" 
+                android:layout_weight="0.20" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/chaCTeaspoonlb">
+                
+            </TextView>
+            <TextView 
+                android:text="" 
+                android:id="@+id/chaCTablespoonlb" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+                
+            </TextView>
+        </LinearLayout>
+    </LinearLayout> 
+            </LinearLayout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:background="@drawable/icon"	   
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">" 
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/input"
+		android:numeric="decimal|signed"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Enter"
+		android:id="@+id/enter"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Clear"
+		android:id="@+id/clear"/>
+<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+	<RadioButton
+		android:text="Pounds"
+		android:id="@+id/pound"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<RadioButton
+		android:text="Ounces"
+		android:id="@+id/ounce"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<RadioButton
+		android:text="Half ounce"
+		android:id="@+id/halfoz"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</RadioGroup>
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:id="@id/tv"
+		android:text=""
+		android:textStyle="bold"
+		android:gravity="center"
+		android:textSize="30sp"/>
+</LinearLayout>
